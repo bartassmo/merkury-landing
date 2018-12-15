@@ -1,0 +1,36 @@
+.header {
+
+    position: fixed;
+    padding: 0 145px;
+
+    &__logo {}
+
+    &__nav {}
+
+    &__list {
+
+        margin-bottom: 0;
+        display: flex;
+
+    }
+
+    &__item {
+
+        font-size: 18px;
+        color: #fff;
+
+    }
+
+    &__login {
+
+        &__btn {
+
+            font-size: 18px;
+            border: 1px solid rgba(85, 132, 255, 0.3);
+            border-radius: 10px;
+
+        }
+
+    }
+
+}
