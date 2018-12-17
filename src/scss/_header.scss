@@ -1,12 +1,12 @@
 .header {
     position: fixed;
-    padding: 0 145px;
+    padding: 67px 150px;
     display: block;
     width: 100%;
 
     &__logo {
-
         float: left;
+        margin-left: 10px;
 
         &__link {
             display: inline-block;
@@ -14,7 +14,10 @@
     }
 
     &__nav {
-        display: inline-block;
+        float: right;
+        margin-top: 19px;
+        margin-right: 48px;
+        display: block;
     }
 
     &__list {
@@ -25,6 +28,8 @@
 
     &__item {
         font-size: 18px;
+        display: inline-block;
+        margin-left: 48px;
     }
 
     &__link {
@@ -32,14 +37,15 @@
     }
 
     &__login {
-
-        display: inline-block;
-
+        float: right;
+        margin-top: 9px;
 
         &__btn {
             font-size: 18px;
             border: 1px solid rgba(85, 132, 255, 0.3);
-            border-radius: 10px;
+            border-radius: 25px;
+            display: inline-block;
+            padding: 11px 43px;
         }
     }
 }

@@ -6,5 +6,59 @@
 
     background: url(../img/hero-bg.jpg) no-repeat center center;
     background-size: cover;
+    text-align: center;
+    padding-top: 269px;
+
+    &__box {
+
+        padding: 0 63px;
+
+    }
+
+    &__title {
+
+        font-size: 60px;
+        line-height: 60px;
+        font-weight: 200;
+        color: #fff;
+        text-align: center;
+
+    }
+
+    &__subtitle {
+
+        font-size: 36px;
+        color: $lblue;
+        line-height: 36px;
+        margin-top: 20px;
+
+    }
+
+    &__btn {
+
+        display: inline-block;
+        background-color: $blue;
+        color: #fff;
+        font-weight: 700;
+        font-size: 18px;
+        margin-top: 76px;
+        padding: 11px 57px;
+        border-radius: 25px;
+
+    }
+
+    &__img {
+
+        margin-top: 48px;
+
+    }
+
+}
+
+.about {
+
+    margin-top: -127px;
+    background-color: #fff;
+    padding-top: 240px;
 
 }
