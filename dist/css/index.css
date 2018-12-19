@@ -90,7 +90,48 @@ body {
 .about {
   margin-top: -127px;
   background-color: #fff;
-  padding-top: 240px;
+  padding-top: 256px;
+}
+.about__container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.about__box {
+  text-align: center;
+  padding: 0 30px;
+}
+.about__box__img {
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 45px;
+}
+.about__title {
+  font-size: 24px;
+  color: #0e1a35;
+  font-weight: 800;
+  letter-spacing: 0.3px;
+}
+.about__describe {
+  font-size: 18px;
+  color: #8492af;
+  margin-top: 17px;
+  line-height: 30px;
+  letter-spacing: 0.3px;
+}
+.about__img {
+  vertical-align: middle;
+}
+.about__btn {
+  font-size: 18px;
+  font-weight: 700;
+  color: #0e1a35;
+  border: 1px solid rgba(132, 146, 175, 0.3);
+  border-radius: 25px;
+  margin-top: 37px;
+  display: inline-block;
+  padding: 11px 87px;
 }
 
 /*# sourceMappingURL=index.css.map */
